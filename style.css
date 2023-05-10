@@ -1,0 +1,395 @@
+/* -------------fonts----------------------- */
+@font-face {
+    font-family: 'GoodHome';
+    src: url(pics/GoodHome/GoodHome.ttf);
+}
+/* --------------------------firstline-------------------------- */
+body{
+    margin: 0%;
+    border: 0cm;
+}
+.firstline{
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    align-items: center;
+}
+.firstline1{
+padding-right: 20px;
+text-decoration: none;
+color: black;
+font-family: 'GoodHome';
+font-size: 14px;
+}
+.firstline2{
+    border: 0px;
+    background-color: white;
+    height: 100%;
+    width: 60px;
+}
+/* -------------secondline-------------- */
+.secondline{
+    display: flex;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: center;
+    height: 75px;
+}
+.logo{
+    padding-left:10px;
+    height: 50px;
+    width: 145px;
+    padding-right: 220px;
+}
+.secondline1{
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-family: 'GoodHome';
+    font-size: 16px;
+    border-bottom: solid 6px #e04e39 transparent;
+}
+.secondline1:hover{
+    border-bottom: solid 6px #e04e39;
+}
+     /* -----------------3rd line----------------------- */
+.thirdline{
+    display: flex;
+}
+ .video{
+    width: 100%;
+}
+.thirdline1{
+    position: absolute;
+    padding-top: 220px;
+    padding-left: 70px;
+}
+.thirdline2{
+   display:flex ;
+   align-items: center;
+}
+.thirdH1{
+    font-family: 'GoodHome';
+    color: white;
+    font-size: 36px;
+}
+.thirdP1{
+    font-family: 'GoodHome';
+    color: white;
+    font-size: 20px;
+}
+.thirdP2{
+    font-family: 'GoodHome';
+    color: white;
+    font-size: 16px;
+    padding-left: 5px;
+}
+     /* ---------------------forth div---------------------- */
+.fourthline{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: white;   
+}
+.fourthline1{
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    align-items: center;
+}
+.fourthH1{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 26px;
+}
+.fourthA1{
+font-family: 'GoodHome';
+color: black;
+font-size: 16px;
+text-decoration: none;
+}
+/* -----------------------fifth row---------------- */
+.fifth{
+    display: flex;
+    justify-content: space-around;
+}
+.fifth1{
+    display: flex;
+    flex-direction: column;
+}
+.fifth2{
+    display: flex;
+    flex-direction: column;
+}
+.fifthI1{
+    height: 380px;
+    width: 670px;
+}
+.fifthP1{
+    font-family: 'GoodHome';
+    color: #7a6855;
+    font-size: 16px;
+    text-decoration: none;
+}
+.fifthA1{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.fifthA2{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 20px;
+}
+/* --------------------------sixth div---------------------- */
+.sixth{
+    display: flex;
+    justify-content: space-between;
+}
+.sixthLarrow{
+    height: 35px;
+    width: 20px;padding-left: 25px;
+    padding-top: 150px;
+}
+.sixthI1{
+    height: 175px;
+    width: 310px;
+}
+.sixthP1{
+    font-family: 'GoodHome';
+    color: #7a6855;
+    font-size: 16px;
+}
+.sixthA1{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.sixthRarrow{
+    height: 35px;
+    width: 20px;
+    padding-right: 25px;
+    padding-top: 150px;
+}
+/* ---------------7th line----------------- */
+.seventh{
+    display: flex;
+    background-color: #e04e39;
+}
+.seventhI1{
+    height: 390px;
+    width: 760px;
+}
+.seventh1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-spacing: 0px;
+    padding-top: 190px;
+    padding-left: 50px;
+
+}
+.seventh1A{
+    text-decoration: none;
+    color: white;
+    font-family: 'GoodHome';
+    align-items: center;
+
+}
+.seventh1I{
+   align-items: center;
+}
+.h17,.h37{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: 'GoodHome';
+    font-size: 16px;
+}
+.h17{
+    font-size: 32px;
+}
+.h37{
+    font-size: 20px;
+}
+/* -------------------8th line--------------------- */
+.eighth{
+    display: flex;
+    padding-left: 70px;
+    background-color: white;
+    height: 170px;
+}
+.eighthT{
+    font-family: 'GoodHome';
+    font-size: 20px;
+    padding-top: 55px;
+}
+/* -----------------------9th-------------------- */
+.nineth{
+    display: flex;
+    justify-content: space-around;
+}
+.ninethI1{
+    height: 175px;
+    width: 330px;
+}
+.ninethP1{
+    font-family: 'GoodHome';
+    color: 323c41;
+    font-size: 20px;
+}
+.ninethA1{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.ninethA2{
+    font-family: 'GoodHome';
+    color: black;
+    font-size: 16px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+.ninethD1{
+    display: flex;
+    flex-direction: column;
+}
+/* -----------------------10th line----------- */
+.tenth{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgray;
+}
+.tenth1{
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border-spacing: 0px;
+    padding-top: 190px;
+    padding-left: 50px;
+
+}
+.tenth1A{
+    text-decoration: none;
+    color: white;
+    font-family: 'GoodHome';
+    align-items: center;
+
+}
+.tenth1I{
+   align-items: center;
+   height: 455px;
+}
+.h110,.h310{
+    padding: 0%;
+    margin: 0%;
+    color: white;
+    font-family: 'GoodHome';
+    font-size: 16px;
+}
+.h110{
+    font-size: 32px;
+}
+.h310{
+    font-size: 20px;
+}
+/* --------___-----12th------------------- */
+.twelveth{
+    display: flex;
+    background-color: white;
+    padding-left: 70px;
+    font-family: 'GoodHome';
+    font-size: 26px;
+    padding-top: 60px;
+}
+/* -------------therteenth------------------ */
+.secondlast{
+    display:flex ;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.secondlastI{
+    height: 250px;
+    width: 450px;
+}
+/* --------------------------forteenth-------------- */
+.lastline{
+    display: flex;
+    padding-left: 20px;
+}
+.lastlineA{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family:'GoodHome' ;
+    font-size: 16px;
+    padding-left: 20px;
+    align-items: center;
+}
+.lastlinePic{
+    width: 15px;
+    font-family:'GoodHome' ;
+    font-size: 16px;
+    align-items: center;
+}
+/* ---------------------footer----------------------- */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #323c40;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.fH1{
+    font-family:'GoodHome' ;
+    font-size: 20px; 
+    color: white;
+    padding-top: 70px;
+}
+.fA1{
+    text-decoration: none;
+    font-family:'GoodHome' ;
+    color: white;
+    font-size: 16px;
+    padding-top: 20px; 
+}
+/* -------------------lastfooter------------------------ */
+.footerLast{
+    display: flex;
+    flex-direction: column;
+    background-color: #323c40;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 0%;
+}
+.footerLast1{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    height: 20px;
+    padding-bottom: 5px;
+
+}
+.footerLast2{
+    font-family:'GoodHome' ;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    padding-right: 10px ;
+}
+.footerLast4{
+    font-family:'GoodHome' ;
+    font-size: 12px;
+    color: white;
+}
